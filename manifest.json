@@ -1,0 +1,16 @@
+{
+  "name": "Tabby",
+  "description": "A cute pet that lives in your browser tabs.",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "popup/popup_start.html"
+  },
+  "permissions": ["storage"],
+  "content_scripts": [
+    {
+      "js": ["scripts/content.js"],
+      "matches": ["http://*/*", "https://*/*"]
+    }
+  ]
+}

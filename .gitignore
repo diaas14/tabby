@@ -1,0 +1,13 @@
+# OS junk
+Thumbs.db
+Desktop.ini
+
+# Editor junk
+.vscode/
+
+# Any Build output
+dist/
+*.zip
+
+# Logs
+*.log
